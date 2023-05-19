@@ -1,0 +1,93 @@
+body {
+    background-color: #1d2326;
+    color: #bfa38a;
+    font-family: monospace;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+ 
+.content{
+    width: 75%;
+    min-width: 270px;
+}
+
+.sidebar {
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-left: 1px dotted #bfa38a;
+  height: 100vh;
+  min-width: 270px;
+
+}
+
+
+
+h2{
+    font-size: 50px;
+}
+
+button{
+    background: transparent;
+    color: whitesmoke;
+    border: 1px solid #bfa38a;
+    width: 200px;
+    height: 35px;
+    margin: 10px 0px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);    
+}
+
+.revealBtn{
+    border: none;
+    text-decoration: underline;
+    color: #bfa38a;
+}
+
+.revealBtn:hover{
+    color:white;
+    background-color: transparent;
+}
+
+img{
+    max-width: 300px;
+    width: 100%;
+
+}
+
+p {
+    padding-top: 10px;
+    font-size: 20px;
+    max-width: 800px;
+    border-top: 1px solid #bfa38a;
+}
+
+div{
+    font-size: 20px;
+    max-width: 800px;
+}
+
+#author{
+    font-style: italic;
+    font-size: 15px;
+    text-align: right;
+}
+
+#revealAnswer{
+    font-style: italic;
+    font-size: 15px;
+    text-align: right;
+}
