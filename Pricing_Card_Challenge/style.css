@@ -136,7 +136,6 @@ ul{
 @media (max-width: 768px) {
     .container {
         width: 90vw;
-        height: auto;
     }
     
     .downPart {
@@ -145,7 +144,6 @@ ul{
     
     .left, .right {
         width: 100%;
-        height: auto;
     }
     
     .left {
@@ -157,44 +155,44 @@ ul{
     }
     
     .top h2 {
-        font-size: 5vw;
+        font-size: 32px;
     }
     
     .top h4 {
-        font-size: 2vw;
+        font-size: 18px;
     }
     
     .top p {
-        font-size: 1.8vw;
+        font-size: 16px;
     }
     
     .left h4 {
-        font-size: 3.5vw;
+        font-size: 24px;
     }
     
     .moneyOne {
-        font-size: 3vw;
+        font-size: 20px;
     }
     
     .moneyTwo {
-        font-size: 2vw;
+        font-size: 16px;
     }
     
     ul {
-        font-size: 2vw;
+        font-size: 16px;
         margin-top: 8px;
     }
     
     .leftTwo {
-        font-size: 1.8vw;
+        font-size: 14px;
     }
     
     .right h4 {
-        font-size: 2vw;
+        font-size: 18px;
     }
     
     .button {
-        font-size: 2vw;
-        height: 4vw;
+        font-size: 16px;
+        height: 40px;
     }
 }
