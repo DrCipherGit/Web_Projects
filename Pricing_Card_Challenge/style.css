@@ -78,7 +78,7 @@ h2,h4{
 .button{
     background-color: #bfdf32;
     width: 50%;
-    height: 45px;
+    height: 4.5vh;
     display: flex;
     justify-content: center;
     color: white;
@@ -115,14 +115,14 @@ h2,h4{
 .moneyTwo{
     font-size: 1.5vw;
     padding-left: 10px;
-    padding-top: 10px;
+    text-align: ;
 }
 
 ul{
     list-style: none;
     font-size: 1.5vw;
     padding: 0px;
-    margin: 0px;
+    margin-top: 10px;
 }
 
 .leftTwo {
