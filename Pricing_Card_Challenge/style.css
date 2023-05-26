@@ -115,7 +115,6 @@ h2,h4{
 .moneyTwo{
     font-size: 1.5vw;
     padding-left: 10px;
-    text-align: ;
 }
 
 ul{
@@ -132,4 +131,68 @@ ul{
 
 .right h4{
     font-size: 1.75vw;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90vw;
+    }
+    
+    .downPart {
+        flex-direction: column;
+    }
+    
+    .left, .right {
+        width: 100%;
+    }
+    
+    .left {
+        padding-bottom: 20px;
+    }
+    
+    .right {
+        padding-bottom: 30px;
+    }
+    
+    .top h2 {
+        font-size: 5vw;
+    }
+    
+    .top h4 {
+        font-size: 2vw;
+    }
+    
+    .top p {
+        font-size: 1.8vw;
+    }
+    
+    .left h4 {
+        font-size: 3.5vw;
+    }
+    
+    .moneyOne {
+        font-size: 3vw;
+    }
+    
+    .moneyTwo {
+        font-size: 2vw;
+    }
+    
+    ul {
+        font-size: 2vw;
+        margin-top: 8px;
+    }
+    
+    .leftTwo {
+        font-size: 1.8vw;
+    }
+    
+    .right h4 {
+        font-size: 2vw;
+    }
+    
+    .button {
+        font-size: 2vw;
+        height: 4vw;
+    }
 }
