@@ -134,7 +134,16 @@ ul{
 }
 
 @media (max-width: 768px) {
-       .left, .right {
-       width: 100%;
+    .container {
+        width: 90vw;
     }
+    
+    .downPart {
+        flex-direction: column;
+    }
+    
+    .left, .right {
+        width: 100%;
+ 
+ }
 }
